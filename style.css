@@ -1,0 +1,157 @@
+/* Import font-awesome icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #161616;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Navigation Bar */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e1e1e;
+  padding: 1.2rem 2rem;
+  z-index: 999;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid #b74b4b;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: #b74b4b;
+  text-shadow: 0 0 10px #b74b4b;
+}
+
+/* Page Content Layout */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 100vh;
+  padding-top: 4rem; /* for nav spacing */
+}
+
+/* Profile Image Styling */
+.profile-img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 0 30px #b74b4b;
+  transition: 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #b74b4b;
+}
+
+/* Text Content */
+.content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #b74b4b;
+}
+
+.content h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  max-width: 500px;
+}
+
+/* Social Icons */
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  border: 2px solid #b74b4b;
+  border-radius: 50%;
+  color: #b74b4b;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #b74b4b;
+  color: black;
+  transform: scale(1.2) translateY(-5px);
+  box-shadow: 0 0 20px #b74b4b;
+}
+/* Resume Button */
+.resume-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #b74b4b;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  margin-top: 1rem;
+}
+
+.resume-btn:hover {
+  background-color: #ff6666;
+  color: white;
+  box-shadow: 0 0 15px #b74b4b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
